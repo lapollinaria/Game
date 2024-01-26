@@ -1,0 +1,685 @@
+!SceneData
+SerializableObjects:
+- !GameObject
+  instanceId: 2966aa95ed4a475a94dee5d2e82571e4
+  name: Floor
+  localEnabled: true
+  transform: d744e31c46e94dc28c6e2d497bc91d5e
+  components:
+  - d744e31c46e94dc28c6e2d497bc91d5e
+  - 1c36567c065448a486a967a4ef91ffd2
+  - ad89fd8d2dd34252a5594da1be33d14e
+  - c41591baf103471dbb9f1193d278734b
+- !Transform
+  instanceId: d744e31c46e94dc28c6e2d497bc91d5e
+  gameObject: 2966aa95ed4a475a94dee5d2e82571e4
+  Rotation:
+    w: 1
+  Scale:
+    x: 50
+    y: 50
+    z: 1
+- !MeshComponent
+  instanceId: 1c36567c065448a486a967a4ef91ffd2
+  gameObject: 2966aa95ed4a475a94dee5d2e82571e4
+  localEnabled: true
+  model: 607a808531e14a56b14e05a3d2a27886
+  materials:
+  - 9aefbd541fe246cb9939cb2bff062bd3
+- !Rigidbody
+  instanceId: ad89fd8d2dd34252a5594da1be33d14e
+  gameObject: 2966aa95ed4a475a94dee5d2e82571e4
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  isStatic: true
+- !CubeCollider
+  instanceId: c41591baf103471dbb9f1193d278734b
+  gameObject: 2966aa95ed4a475a94dee5d2e82571e4
+  localEnabled: true
+  massPart: 1
+  size:
+    x: 1
+    y: 1
+    z: 1
+- !GameObject
+  instanceId: d65521fb79b148bfb34f08f83d186883
+  name: DirLight
+  localEnabled: true
+  transform: 5eb8e307ce424841b6bd9a5c2b6bcac6
+  components:
+  - 5eb8e307ce424841b6bd9a5c2b6bcac6
+  - 8d9fe594b69c4889af667e11800ad7f7
+- !Transform
+  instanceId: 5eb8e307ce424841b6bd9a5c2b6bcac6
+  gameObject: d65521fb79b148bfb34f08f83d186883
+  Rotation:
+    w: 0.8535533905932737
+    x: -0.35355339059327384
+    y: 0.14644660940672627
+    z: 0.3535533905932738
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !DirectionalLight
+  instanceId: 8d9fe594b69c4889af667e11800ad7f7
+  gameObject: d65521fb79b148bfb34f08f83d186883
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  shadowSize: 4096
+- !GameObject
+  instanceId: a6996314bf3b4b7bab200d1501c502ab
+  name: Cube
+  localEnabled: true
+  transform: a89aa759b15a417e8b06ba927fa44e82
+  components:
+  - a89aa759b15a417e8b06ba927fa44e82
+  - a1e880b1e88548e8babd8585f7789000
+  - 4cd88a6110934a99823604953ac041f1
+  - 5ba0c83e08de4f77afbd460e0759fcdb
+  - 4f50d18e002143df9b8896d518236e9f
+  - ac36018536ac4115b78d8e7e0869f53f
+  - 93939ed80b80451689cbca6e362b4762
+- !Transform
+  instanceId: a89aa759b15a417e8b06ba927fa44e82
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  Position:
+    y: 3
+    z: 4
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: a1e880b1e88548e8babd8585f7789000
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  localEnabled: true
+  model: 341650a1d9264f1d88155480a348a055
+  materials:
+  - 0070e773361e45aeaabaf45b7ed750b2
+  - 0070e773361e45aeaabaf45b7ed750b2
+  - 0070e773361e45aeaabaf45b7ed750b2
+- !Rigidbody
+  instanceId: 4cd88a6110934a99823604953ac041f1
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+- !CubeCollider
+  instanceId: 5ba0c83e08de4f77afbd460e0759fcdb
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  localEnabled: true
+  massPart: 1
+  isTrigger: true
+  size:
+    x: 2
+    y: 2
+    z: 2
+- !TriggerTr
+  instanceId: 4f50d18e002143df9b8896d518236e9f
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  localEnabled: true
+- !PhysMat
+  instanceId: ac36018536ac4115b78d8e7e0869f53f
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  localEnabled: true
+- !PointLight
+  instanceId: 93939ed80b80451689cbca6e362b4762
+  gameObject: a6996314bf3b4b7bab200d1501c502ab
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 255
+    y: 1
+    z: 1
+  radius: 5
+  intensity: 0.4
+- !GameObject
+  instanceId: ece3143536a84d4db97db01673d481c6
+  name: Camera
+  localEnabled: true
+  transform: b9222f695be64d3aac49f5eeadd8f930
+  components:
+  - b9222f695be64d3aac49f5eeadd8f930
+  - b21a9761aca44850a3e5a944c9599f8c
+  - 9b80e196904d47daa08a0566571c25e3
+  - abfe41559ee24655a770f61f429f7a56
+- !Transform
+  instanceId: b9222f695be64d3aac49f5eeadd8f930
+  gameObject: ece3143536a84d4db97db01673d481c6
+  Position:
+    y: -8
+    z: 2
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !Camera
+  instanceId: b21a9761aca44850a3e5a944c9599f8c
+  gameObject: ece3143536a84d4db97db01673d481c6
+  localEnabled: true
+  fov: 1.5707963267948966
+  aspect: 1
+  near: 0.001
+  far: 500
+- !EditorCameraController
+  instanceId: 9b80e196904d47daa08a0566571c25e3
+  gameObject: ece3143536a84d4db97db01673d481c6
+  localEnabled: true
+- !SphereCollider
+  instanceId: abfe41559ee24655a770f61f429f7a56
+  gameObject: ece3143536a84d4db97db01673d481c6
+  localEnabled: true
+  massPart: 1
+  radius: 2
+- !GameObject
+  instanceId: 14016365514046deabe74f92b0290ad3
+  name: TargetSquare
+  localEnabled: true
+  transform: 7d9d6cd5b2194677b964cbc78b9587ef
+  components:
+  - 7d9d6cd5b2194677b964cbc78b9587ef
+  - 10c02342f60241a0b15eb7767024c82e
+  - f99c5710e0984a12893b8a00caf69543
+  - e13480fcc9c94d36b1ec363ea319c198
+  - 7b0ea452d857478281768f09bcfd524c
+- !Transform
+  instanceId: 7d9d6cd5b2194677b964cbc78b9587ef
+  gameObject: 14016365514046deabe74f92b0290ad3
+  Position:
+    x: -10
+    z: -0.4
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: 10c02342f60241a0b15eb7767024c82e
+  gameObject: 14016365514046deabe74f92b0290ad3
+  localEnabled: true
+  model: 341650a1d9264f1d88155480a348a055
+  materials:
+  - 0070e773361e45aeaabaf45b7ed750b2
+  - 0070e773361e45aeaabaf45b7ed750b2
+  - 0070e773361e45aeaabaf45b7ed750b2
+- !CubeCollider
+  instanceId: f99c5710e0984a12893b8a00caf69543
+  gameObject: 14016365514046deabe74f92b0290ad3
+  localEnabled: true
+  massPart: 1
+  isTrigger: true
+  size:
+    x: 2
+    y: 2
+    z: 2
+- !Rigidbody
+  instanceId: e13480fcc9c94d36b1ec363ea319c198
+  gameObject: 14016365514046deabe74f92b0290ad3
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  isStatic: true
+- !TargetSquare
+  instanceId: 7b0ea452d857478281768f09bcfd524c
+  gameObject: 14016365514046deabe74f92b0290ad3
+  localEnabled: true
+- !GameObject
+  instanceId: 8f3e37f91b7743b9bd126b296d5d11d3
+  name: Interaction
+  localEnabled: true
+  transform: 5cc5e0d92748487e99427723724772e0
+  components:
+  - 5cc5e0d92748487e99427723724772e0
+  - e455e08813f340cb9e5d6199f1334819
+  - e7b148bf6c074c9ba4b5472e473b2021
+- !Transform
+  instanceId: 5cc5e0d92748487e99427723724772e0
+  gameObject: 8f3e37f91b7743b9bd126b296d5d11d3
+  Rotation:
+    w: 1
+  Scale:
+    x: 50
+    y: 50
+    z: 4
+- !CubeCollider
+  instanceId: e455e08813f340cb9e5d6199f1334819
+  gameObject: 8f3e37f91b7743b9bd126b296d5d11d3
+  localEnabled: true
+  massPart: 1
+  size:
+    x: 1
+    y: 1
+    z: 1
+- !Interaction
+  instanceId: e7b148bf6c074c9ba4b5472e473b2021
+  gameObject: 8f3e37f91b7743b9bd126b296d5d11d3
+  localEnabled: true
+- !GameObject
+  instanceId: 768c055b0bff47838d4a16e00ba4e632
+  name: New
+  localEnabled: true
+  transform: faf2d1f9556b4434a49d527bcdba6419
+  components:
+  - faf2d1f9556b4434a49d527bcdba6419
+  - ede4b2cfe1fe4d77b9f54efc88e4ae8d
+  - 0b17b1da9dc4401c997b416351b69730
+- !Transform
+  instanceId: faf2d1f9556b4434a49d527bcdba6419
+  gameObject: 768c055b0bff47838d4a16e00ba4e632
+  Position:
+    z: 2
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !Camera
+  instanceId: ede4b2cfe1fe4d77b9f54efc88e4ae8d
+  gameObject: 768c055b0bff47838d4a16e00ba4e632
+  localEnabled: true
+  makeCurrentOnStart: true
+  fov: 1.5707963267948966
+  aspect: 1
+  near: 0.001
+  far: 500
+- !Rigidbody
+  instanceId: 0b17b1da9dc4401c997b416351b69730
+  gameObject: 768c055b0bff47838d4a16e00ba4e632
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+- !GameObject
+  instanceId: 63ea95e486864622befb79a2d03025ff
+  name: GreenCube
+  localEnabled: true
+  transform: d8f2606218b844daa86d372ade87833e
+  components:
+  - d8f2606218b844daa86d372ade87833e
+  - 5b09f17376c44afc99f41e1d7a921091
+  - 648bb236072d4728b224dffdf7b694a8
+  - 0841676cc0584ffb97ad79ecb7cba809
+  - cf17e19dab1f4de49b4fd0f1c976e507
+  - 95feca7687cc45bcbdd25c449b28a808
+  - 760c04dfc6d04fa7b7c793111dea2a89
+- !Transform
+  instanceId: d8f2606218b844daa86d372ade87833e
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  Position:
+    x: 5
+    y: 5
+    z: 3
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: 5b09f17376c44afc99f41e1d7a921091
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  localEnabled: true
+  model: 341650a1d9264f1d88155480a348a055
+  materials:
+  - e51866f2de10445999f514b5dd6d5d4b
+  - e51866f2de10445999f514b5dd6d5d4b
+  - e51866f2de10445999f514b5dd6d5d4b
+- !Rigidbody
+  instanceId: 648bb236072d4728b224dffdf7b694a8
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+- !CubeCollider
+  instanceId: 0841676cc0584ffb97ad79ecb7cba809
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  localEnabled: true
+  massPart: 1
+  isTrigger: true
+  size:
+    x: 2
+    y: 2
+    z: 2
+- !TriggerTr
+  instanceId: cf17e19dab1f4de49b4fd0f1c976e507
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  localEnabled: true
+- !PhysMat
+  instanceId: 95feca7687cc45bcbdd25c449b28a808
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  localEnabled: true
+- !PointLight
+  instanceId: 760c04dfc6d04fa7b7c793111dea2a89
+  gameObject: 63ea95e486864622befb79a2d03025ff
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 255
+    z: 1
+  radius: 5
+  intensity: 0.4
+- !GameObject
+  instanceId: 88a1f9216de64cd9b6e4ebff70f186ba
+  name: TargetGreen
+  localEnabled: true
+  transform: e8d943bed1ae41aa853f8c31e0b0a0d1
+  components:
+  - e8d943bed1ae41aa853f8c31e0b0a0d1
+  - c518cfaa2be54405a2dcc3721b142a97
+  - 23fddb6ec272437fae02f2097c45ccfe
+  - f53c6604320d4aafaa765f9694139c4a
+  - 2fddb9cb245246dc8013247850d24676
+- !Transform
+  instanceId: e8d943bed1ae41aa853f8c31e0b0a0d1
+  gameObject: 88a1f9216de64cd9b6e4ebff70f186ba
+  Position:
+    x: 7
+    y: 12
+    z: -0.4
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: c518cfaa2be54405a2dcc3721b142a97
+  gameObject: 88a1f9216de64cd9b6e4ebff70f186ba
+  localEnabled: true
+  model: 341650a1d9264f1d88155480a348a055
+  materials:
+  - e51866f2de10445999f514b5dd6d5d4b
+  - e51866f2de10445999f514b5dd6d5d4b
+  - e51866f2de10445999f514b5dd6d5d4b
+- !CubeCollider
+  instanceId: 23fddb6ec272437fae02f2097c45ccfe
+  gameObject: 88a1f9216de64cd9b6e4ebff70f186ba
+  localEnabled: true
+  massPart: 1
+  isTrigger: true
+  size:
+    x: 2
+    y: 2
+    z: 2
+- !Rigidbody
+  instanceId: f53c6604320d4aafaa765f9694139c4a
+  gameObject: 88a1f9216de64cd9b6e4ebff70f186ba
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  isStatic: true
+- !TargetGreen
+  instanceId: 2fddb9cb245246dc8013247850d24676
+  gameObject: 88a1f9216de64cd9b6e4ebff70f186ba
+  localEnabled: true
+- !GameObject
+  instanceId: f8cc44d69a484fbf85b0fc035b5f5546
+  name: BlueCube
+  localEnabled: true
+  transform: 6f7f4502e89b41afa89c513c3f63e0b9
+  components:
+  - 6f7f4502e89b41afa89c513c3f63e0b9
+  - b4e141f3dd1446bba5f96a0c7906c4e1
+  - 6e4099ed5ce94c84ac53f081e1c5eb87
+  - 350a333aca3141ef8c24a52d38d9fb78
+  - c67f9d236d034e7cb09cb17e78967cdc
+  - b89a6b501df24a7db62db48e3a3d604f
+  - 4f2ede4d1e3843aeaab4c8dbb34c2d6c
+- !Transform
+  instanceId: 6f7f4502e89b41afa89c513c3f63e0b9
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  Position:
+    x: -2
+    y: -3
+    z: 3
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: b4e141f3dd1446bba5f96a0c7906c4e1
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  localEnabled: true
+  model: 341650a1d9264f1d88155480a348a055
+  materials:
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+- !Rigidbody
+  instanceId: 6e4099ed5ce94c84ac53f081e1c5eb87
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+- !CubeCollider
+  instanceId: 350a333aca3141ef8c24a52d38d9fb78
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  localEnabled: true
+  massPart: 1
+  isTrigger: true
+  size:
+    x: 2
+    y: 2
+    z: 2
+- !TriggerTr
+  instanceId: c67f9d236d034e7cb09cb17e78967cdc
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  localEnabled: true
+- !PhysMat
+  instanceId: b89a6b501df24a7db62db48e3a3d604f
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  localEnabled: true
+- !PointLight
+  instanceId: 4f2ede4d1e3843aeaab4c8dbb34c2d6c
+  gameObject: f8cc44d69a484fbf85b0fc035b5f5546
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 255
+  radius: 5
+  intensity: 0.4
+- !GameObject
+  instanceId: 2e18eda15e2145e2b1412cb98da98aef
+  name: TargetBlue
+  localEnabled: true
+  transform: 24767259bef542f6b5735f7de7c9adc1
+  components:
+  - 24767259bef542f6b5735f7de7c9adc1
+  - 27884633936a4323a6ddd8f590eaecb1
+  - 81c003c5daa54edfb549a14a3a584307
+  - d55f896529c544ccb2b2e2847158cf68
+  - 57fe33d81c0f493b8ed7976b2729d36b
+- !Transform
+  instanceId: 24767259bef542f6b5735f7de7c9adc1
+  gameObject: 2e18eda15e2145e2b1412cb98da98aef
+  Position:
+    x: 10
+    z: -0.4
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: 27884633936a4323a6ddd8f590eaecb1
+  gameObject: 2e18eda15e2145e2b1412cb98da98aef
+  localEnabled: true
+  model: 341650a1d9264f1d88155480a348a055
+  materials:
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+- !CubeCollider
+  instanceId: 81c003c5daa54edfb549a14a3a584307
+  gameObject: 2e18eda15e2145e2b1412cb98da98aef
+  localEnabled: true
+  massPart: 1
+  isTrigger: true
+  size:
+    x: 2
+    y: 2
+    z: 2
+- !Rigidbody
+  instanceId: d55f896529c544ccb2b2e2847158cf68
+  gameObject: 2e18eda15e2145e2b1412cb98da98aef
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  isStatic: true
+- !TargetBlue
+  instanceId: 57fe33d81c0f493b8ed7976b2729d36b
+  gameObject: 2e18eda15e2145e2b1412cb98da98aef
+  localEnabled: true
+- !GameObject
+  instanceId: cafcd247122942eda90350e766af3323
+  name: PointLight1
+  localEnabled: true
+  transform: 7b4e3bdb01634e84ab296f7be85c3c04
+  components:
+  - 7b4e3bdb01634e84ab296f7be85c3c04
+  - f31e2f9f735b4825a98f56a4f7bc9f74
+- !Transform
+  instanceId: 7b4e3bdb01634e84ab296f7be85c3c04
+  gameObject: cafcd247122942eda90350e766af3323
+  Position:
+    x: -20
+    y: -10
+    z: 10
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !PointLight
+  instanceId: f31e2f9f735b4825a98f56a4f7bc9f74
+  gameObject: cafcd247122942eda90350e766af3323
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  radius: 30
+  intensity: 0.5
+- !GameObject
+  instanceId: fee1816a137d4c11a53b2391d0d321e5
+  name: PointLight3
+  localEnabled: true
+  transform: f83976ac791d42ec961470ad14b5b366
+  components:
+  - f83976ac791d42ec961470ad14b5b366
+  - f03cf4d53d1741c88d72b4056104075f
+- !Transform
+  instanceId: f83976ac791d42ec961470ad14b5b366
+  gameObject: fee1816a137d4c11a53b2391d0d321e5
+  Position:
+    x: -20
+    y: 15
+    z: 8
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !PointLight
+  instanceId: f03cf4d53d1741c88d72b4056104075f
+  gameObject: fee1816a137d4c11a53b2391d0d321e5
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  radius: 30
+  intensity: 0.5
+- !GameObject
+  instanceId: e48001755f4b4778b832c4e478440a06
+  name: PointLight2
+  localEnabled: true
+  transform: 4a848a8e2c0a4e33ac91278e57315d9e
+  components:
+  - 4a848a8e2c0a4e33ac91278e57315d9e
+  - a55bbab5b7004b339f2acbf5bbf4e9e2
+- !Transform
+  instanceId: 4a848a8e2c0a4e33ac91278e57315d9e
+  gameObject: e48001755f4b4778b832c4e478440a06
+  Position:
+    x: 20
+    y: 15
+    z: 10
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !PointLight
+  instanceId: a55bbab5b7004b339f2acbf5bbf4e9e2
+  gameObject: e48001755f4b4778b832c4e478440a06
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  radius: 30
+  intensity: 0.5

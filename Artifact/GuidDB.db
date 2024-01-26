@@ -1,0 +1,51 @@
+version: 4
+pathToGuidsMap:
+  Materials\AluminMat.mat:
+  - 9aefbd541fe246cb9939cb2bff062bd3
+  Materials\cement_arcing_pattern1_albedo.png:
+  - e85c0ef112d348ba8f7df13c7edbe01e
+  Materials\cement_arcing_pattern1_ao.png:
+  - e4f458822f8e49409196a22812beba0c
+  Materials\cement_arcing_pattern1_Height.png:
+  - 2ac740b89a4c4cbcb147765cb7e1d193
+  Materials\cement_arcing_pattern1_Metallic.png:
+  - d1a9d6fda68348bc970010cde7577e9d
+  Materials\cement_arcing_pattern1_Normal-dx.png:
+  - b2e92c00bb8d4cc1b60ccd7890cac63a
+  Materials\cement_arcing_pattern1_Roughness.png:
+  - 067cf9a836fe4b96a8933704b384eaf1
+  Materials\FloorMat.mat:
+  - e44f1ee230e54ac78cfeac7cf6434d07
+  Materials\textured-aluminum_albedo.png:
+  - 24dad3a1846f4c228b5aff58da7c602f
+  Materials\textured-aluminum_ao.png:
+  - 5579c31a7c73404e86317def0d6cf207
+  Materials\textured-aluminum_height.png:
+  - 9f4a5762dc1c430698fa7602b4ca7bd7
+  Materials\textured-aluminum_metallic.png:
+  - f2424860e55e4246bfc61f9152eb4162
+  Materials\textured-aluminum_normal-dx.png:
+  - 181cf67a3d8946c2800c663c3a880dcf
+  Materials\textured-aluminum_preview.jpg:
+  - a7ac57bf36cc47269b9adc712e72c94c
+  Materials\textured-aluminum_roughness.png:
+  - 634d0f24b59444e68e4d54f703056730
+  Models\BlueMat.mat:
+  - a7c2ad0efc6d44fd9d5c63d7b0a51aae
+guidToDataTypeMap:
+  9aefbd541fe246cb9939cb2bff062bd3: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  e85c0ef112d348ba8f7df13c7edbe01e: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  e4f458822f8e49409196a22812beba0c: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  2ac740b89a4c4cbcb147765cb7e1d193: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  d1a9d6fda68348bc970010cde7577e9d: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  b2e92c00bb8d4cc1b60ccd7890cac63a: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  067cf9a836fe4b96a8933704b384eaf1: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  e44f1ee230e54ac78cfeac7cf6434d07: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  24dad3a1846f4c228b5aff58da7c602f: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  5579c31a7c73404e86317def0d6cf207: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  9f4a5762dc1c430698fa7602b4ca7bd7: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  f2424860e55e4246bfc61f9152eb4162: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  181cf67a3d8946c2800c663c3a880dcf: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  a7ac57bf36cc47269b9adc712e72c94c: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  634d0f24b59444e68e4d54f703056730: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  a7c2ad0efc6d44fd9d5c63d7b0a51aae: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
